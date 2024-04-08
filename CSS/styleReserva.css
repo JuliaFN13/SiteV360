@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(247, 242, 227);
+    margin: 0;
+}
+
+.home {
+    text-align: center;
+    background-image: url(/img/folhas.jpg);
+    height: 100%;
+    box-shadow: 2px 3px 4px rgb(44, 44, 44);
+    padding: 2px;
+}
+
+.menu {
+    background-color: rgb(75, 88, 76);
+}
+
+.lista {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    color: rgb(168, 187, 161);
+    font-family: 'Sofia';
+    font-size: 25px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(138, 216, 114);
+}
+
+.rodape {
+    color: rgb(37, 56, 30);
+    background-image: url(/img/folhas.jpg);
+    font-family: 'Alegreya SC';
+    font-size: 12px;
+    box-shadow: 2px 2px 4px 4px rgb(44, 44, 44);
+}
+
+footer {
+    width: 100%;
+    line-height: 15px;
+}
+
+button {
+    color: rgb(236, 234, 219);
+    background-color: rgb(127, 179, 111);
+    border: none;
+    width: 150px;
+    height: 30px;
+    box-shadow: 2px 2px 4px rgb(44, 44, 44);
+}
+
+button:hover {
+    color: rgb(131, 240, 98);
+    background-color: rgb(236, 234, 219);
+}
+
+.reservas {
+    border: 2px solid rgb(31, 44, 31);
+    padding-bottom: 20px;
+    background-color: rgb(129, 138, 115);
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: aliceblue;
+}
+
+input {
+    box-shadow: 1px 1px 2px rgb(103, 118, 100);
+}

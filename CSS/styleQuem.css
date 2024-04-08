@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(247, 242, 227);
+    margin: 0;
+}
+
+.home {
+    text-align: center;
+    background-image: url(/img/folhas.jpg);
+    height: 100%;
+    box-shadow: 2px 3px 4px rgb(44, 44, 44);
+    padding: 2px;
+}
+
+.menu {
+    background-color: rgb(75, 88, 76);
+}
+
+.lista {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    color: rgb(168, 187, 161);
+    font-family: 'Sofia';
+    font-size: 25px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(138, 216, 114);
+}
+
+.rodape {
+    color: rgb(37, 56, 30);
+    background-image: url(/img/folhas.jpg);
+    font-family: 'Alegreya SC';
+    font-size: 12px;
+    box-shadow: 2px 2px 4px 4px rgb(44, 44, 44);
+}
+
+footer {
+    width: 100%;
+    line-height: 15px;
+}
+
+.quem {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contexto {
+    background-color: rgb(103, 118, 100);
+    border-radius: 10%;
+    text-align: justify;
+    width: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 100px;
+    box-shadow: 2px 3px 4px rgb(44, 44, 44);
+    color: rgb(241, 240, 226);
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.fotos {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.galeria{
+    border-radius: 20px;
+}
+.galeria {
+    width: 350px;
+    height: 250px;
+    transition: 0.5s;
+}
+
+.galeria:hover {
+    transform: scale(1.15)
+}
